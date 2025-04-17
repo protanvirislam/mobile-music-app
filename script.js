@@ -238,7 +238,6 @@ function renderingTimerandBar() {
 }
 
 function playFromList(e) {
-
   let parent = e.target.parentNode.parentNode;
 
   currentIndex = +parent.getAttribute("data-set");
