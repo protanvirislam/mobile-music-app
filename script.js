@@ -238,7 +238,7 @@ function renderingTimerandBar() {
 }
 
 function playFromList(e) {
-  if (e.target.parentNode.classList.contains("all-music-list")) return;
+
   let parent = e.target.parentNode.parentNode;
 
   currentIndex = +parent.getAttribute("data-set");
